@@ -1,9 +1,8 @@
 'use strict';
-let a = null;
-console.log(typeof 'Hello');
-console.log(typeof 1);
-console.log(typeof 0);
-console.log(typeof true);
-console.log(typeof undefined);
-console.log(typeof null);
-console.log('guess','-',a);
+const  student = {
+    id: '562115036',
+    name: 'nep'
+};
+
+console.log('id:',student.id);
+console.log('name:',student.name);
