@@ -19,5 +19,13 @@ const  student3 = {
     name: 'who'
 };
 const students = [student,student2,student3]
-students.splice(1,1);
-console.log(students);
+const getstudentById = (id,name) => {
+ switch (id){
+     case '562115036':
+         return 'good';
+     case '562115037':
+         return'bad';
+ }
+};
+
+console.log(getstudentById('562115036'));
